@@ -16,7 +16,6 @@ app.get('/', (req: Request, res: Response) => {
   res.send('E-Pharmacy API is running...');
 });
 
-// Підключаємося до бази даних, і тільки після успіху запускаємо сервер
 mongoose.connect(DB_HOST)
   .then(() => {
     console.log('Database connection successful');

@@ -1,0 +1,12 @@
+.logoWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 135px;
+  height: 32px;
+}
+
+.logo {
+  width: 32px;
+}
